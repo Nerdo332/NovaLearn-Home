@@ -1,0 +1,120 @@
+/* CSS Stylesheet (Linked to index.html) */
+header {
+    text-align: center;
+    background: black;
+    padding: 5px;
+}
+
+body {
+    background: white;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+
+p a {
+    font-family: 'Arial', sans-serif;
+    size: 4px;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to right, #3b7de8, #a200ff);
+    border-radius: 100px;
+    padding: 4.5px;
+}
+
+p a:hover {
+    background: rgba(0, 0, 0, 1);
+    border-radius: 100px;
+}
+
+h3 a {
+    font-family: 'Arial', sans-serif;
+    size: 1px;
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 3.5px;
+}
+
+h3 a:hover {
+    background: white;
+    border-radius: 100px;
+    padding: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Adjusts spacing between elements */
+    align-items: center; /* Aligns items vertically */
+}
+
+.body-container-1 {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background: linear-gradient(to right, #3b7de8, #a200ff);
+    text-align: center;
+    padding: 3px;
+}
+
+.body-container-1-1 {
+    font-family: 'Dancing Script', cursive;
+    padding: 1px;
+}
+
+.body-container-2 {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background: rgba(0, 0, 0, 1);
+    text-align: center;
+    padding: 10px;
+}
+
+.body-container-3 {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background: black;
+    text-align: left;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.body-container-4 {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background: black;
+    text-align: left;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.contact-info {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    button {
+        background: linear-gradient(to right, #3b7de8, #a200ff);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: rgba(0, 0, 0, 1);
+    }
+}
+
+form {
+    display: flex;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background: black;
+    text-align: left;
+    padding: 10px;
+}
